@@ -12,6 +12,7 @@ try {
         fs.writeFileSync(`${folderName}/index.html`, '')
         fs.writeFileSync(`${folderName}/app.js`, '')
         fs.writeFileSync(`${folderName}/style.css`, '')
+        console.log(`"Your Js template is ready, you can find it within" ${folderName}`)
 }
 
 catch(e) {
